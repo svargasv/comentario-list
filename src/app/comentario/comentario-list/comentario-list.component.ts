@@ -18,7 +18,6 @@ export class ComentarioListComponent implements OnInit{
   getComentarios():void{
     this.comentarioService.getComentarios().subscribe(comentarios=>this.comentarios=comentarios);
   }
-
   comentario_id:number;
   selectedComentario:ComentarioDetail;
 
