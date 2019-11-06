@@ -13,7 +13,7 @@ export class ComentarioDetailComponent implements OnInit {
 
   constructor(
     private comentarioService:ComentarioService,
-  private route: ActivatedRoute
+    private route: ActivatedRoute
   ) { }
 
 
