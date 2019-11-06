@@ -9,9 +9,9 @@ import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
-  imports: [CommonModule
+  imports: [CommonModule,FormsModule,AppRoutingModule
   ],
-  declarations: [ComentarioListComponent, ComentarioDetailComponent, AppRoutingModule],
+  declarations: [ComentarioListComponent, ComentarioDetailComponent],
   exports : [ComentarioListComponent],
   providers: [ComentarioService]
  
