@@ -1,19 +1,19 @@
 [{
   "id": 1,
-  "comentario": "Soy una prueba",
+  "comentario": "Soy una prueba"
 
 }, {
   "id": 2,
-  "comentario": "Soy un comentario",
+  "comentario": "Soy un comentario"
  
 },
 {
   "id": 3,
-  "comentario": "Netflix",
+  "comentario": "Netflix"
  
 },
 {
   "id": 4,
-  "comentario": "Buena pelicula",
+  "comentario": "Buena pelicula"
   
 }]
