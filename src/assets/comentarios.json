@@ -1,19 +1,19 @@
 [{
   "id": 1,
   "comentario": "Soy una prueba",
-  "fecha":"2012-04-23T18:25:43.511Z"
+
 }, {
   "id": 2,
   "comentario": "Soy un comentario",
-  "fecha":"2012-04-23T18:25:43.511Z"
+ 
 },
 {
   "id": 3,
   "comentario": "Netflix",
-  "fecha":"2012-04-23T18:25:43.511Z"
+ 
 },
 {
   "id": 4,
   "comentario": "Buena pelicula",
-  "fecha":"2012-04-23T18:25:43.511Z"
+  
 }]
