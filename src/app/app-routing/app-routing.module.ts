@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import {ComentarioDetailComponent} from '../comentario/comentario-detail/comentario-detail.component';
 import {ComentarioListComponent} from '../comentario/comentario-list/comentario-list.component';
+import {ComentarioCreateComponent} from '../comentario/comentario-create/comentario-create.component';
 const routes: Routes = [
 
   {
@@ -17,7 +18,13 @@ const routes: Routes = [
       outlet: 'detail'
     }
     ]
+  },
+  {
+    path:'create',
+    component:ComentarioCreateComponent,
   }
+  
+  
 ];
 @NgModule({
   imports: [
