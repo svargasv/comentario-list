@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import {ComentarioService} from '../comentario.service';
 import {Comentario} from '../comentario';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-comentario-create',
@@ -12,7 +13,7 @@ export class ComentarioCreateComponent  {
 
 
   comentarioForm:FormGroup;
-  constructor(  private comentarioService:ComentarioService, private formBuilder :FormBuilder) { 
+  constructor(  private comentarioService:ComentarioService, private formBuilder :FormBuilder, private router: Router) { 
     
     this.comentarioForm= this.formBuilder.group({
       id:["",Validators.required],
