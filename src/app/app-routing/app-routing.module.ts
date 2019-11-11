@@ -16,15 +16,13 @@ const routes: Routes = [
       path: ':id',
       component: ComentarioDetailComponent,
       outlet: 'detail'
-    },
-    {
-    path:'add',
-    component:ComentarioCreateComponent,
-    outlet: 'create'
-  }
+    }
     ]
   },
-  
+  {
+    path:'create',
+    component:ComentarioCreateComponent,
+  }
   
   
 ];
