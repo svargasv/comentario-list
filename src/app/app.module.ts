@@ -5,11 +5,19 @@ import { AppComponent } from './app.component';
 import {ComentarioModule} from './comentario/comentario.module';
 import {HttpClientModule} from '@angular/common/http';
 import {ReactiveFormsModule} from '@angular/forms';
+import {ToastrModule} from 'ngx-toastr';
+
 
 
 @NgModule({
-  imports:      [ BrowserModule,ComentarioModule,HttpClientModule,AppRoutingModule,ReactiveFormsModule],
+  imports:      [ BrowserModule,ComentarioModule,HttpClientModule,AppRoutingModule,ReactiveFormsModule,
+  ToastrModule.forRoot({
+            timeOut: 10000,
+            positionClass: 'toast-bottom-right',
+            preventDuplicates: true,
+        }),],
   declarations: [ AppComponent],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers: []
 })
 export class AppModule { }
